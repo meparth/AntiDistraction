@@ -1,0 +1,119 @@
+body {
+    width: 400px;
+    font-family: helvetica, arial, sans-serif;
+    font-size: 13px;
+}
+#nav {
+    float: right;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+a:focus {
+    outline: none;
+}
+#settings {
+    float: left;
+    margin-top: -1px;
+    font-size: 12px;
+}
+#settings a {
+    font-weight: bold;
+}
+#settings a:hover {
+    text-decoration: underline;
+}
+#data {
+    margin-top: 10px;
+}
+#table_div {
+    margin-top: 15px;
+}
+.active {
+    font-weight: bold;
+}
+#nodata {
+    display: none;
+    color: red;
+    font-weight: bold;
+}
+#nodata a {
+    text-decoration: underline;
+    color: red;
+}
+
+
+#time_elapsed{
+    margin-top: 30px;
+    color: darkslategrey;
+    font-size: 40px;
+    text-align: center;
+}
+
+.greetings{
+    text-align: center;
+    color: darkgrey;
+}
+
+.everything{
+    margin-top: 50px;
+    height: 300px;
+    /* animation-name: opening;
+    animation-duration: 2s; */
+    /* animation-timing-function: ease-in; */
+    /* background-color: blue; */
+}
+
+
+/*
+@keyframes opening{
+  from {height: 0px;}
+  to {height: 300px;}
+} */
+
+
+
+
+
+.theoption{
+    /* width: 50%; */
+    /* margin: auto; */
+    /* margin-top: 100px; */
+}
+
+.optioninfo{
+    text-align: center;
+    color: darkgrey;
+    margin: auto;
+    /* margin: 30px; */
+}
+
+
+
+.buttonholder{
+    margin: 20px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+}
+
+.timebutton{
+    display: inline-block;
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    border: 3px solid #345;
+    padding: 10px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 3.5em;
+}
+
+.timebutton:hover{
+    cursor: pointer;
+    background: lightgrey;
+}
+
+.active{
+    background: lightgrey;
+}
